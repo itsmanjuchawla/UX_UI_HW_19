@@ -106,9 +106,10 @@ p {
 /* My UX Skills section coded using CSS flex */
 .carousel {
   position: relative;
-  height: 600px; /* Set the height of the carousel */
+  height: auto; /* Set the height of the carousel */
   overflow: hidden;
   display: flex;
+  flex-direction: row;
 }
 
 /* Define initial state for skill items */
@@ -244,14 +245,23 @@ p {
   .flexContainer {
     flex-direction: column;
   }
+/* My UX Skills section coded using CSS flex */
+.carousel {
+  position: relative;
+  height: auto; /* Set the height of the carousel */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
 
+.skillItem.active img {
+  width: 150px; /* Adjust width as needed */
+}
   #skillSectionHeading {
     font-family: Sansation;
     font-size: 1.5em;
     margin-bottom: 0px;
     text-align: center; /* Center align heading */
-    border: 1px solid #ccc; /* Add border */
-    border-radius: 5px;
     padding: 10px; /* Add padding */
     width: auto; /* Set width to auto */
   }
@@ -352,17 +362,17 @@ p {
   }
 
   .myWork {
-    padding: 150px 10px 50px; /* Added padding for navigation */
+    padding: 100px 50px 50px; /* Added padding for navigation */
   }
 
   .mySkills {
     text-align: center;
-    padding: 150px 10px 50px; /* Added padding for navigation */
+    padding: 100px 50px 200px; /* Added padding for navigation */
   }
 
   .skillItem img {
     width: 150px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
 }
