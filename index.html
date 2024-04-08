@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manju's Portfolio</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <script src="./css/scripts/script.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="#home" class="logo">
+        <img src="css/images/logo.png" alt="Logo">
+         </a></li>
+         <li><a href="#home">About Me</a></li>
+         <li><a href="#mySkills">UX Skills</a></li>
+         <li><a href="#myWork">Projects</a></li>
+    </ul>
+  </nav>
+  <section id="home" class="home"></section>
+  <div class="container" id="topContainer">
+    <div class="content" id="about">
+      <h1>Hello there,</h1>
+      <p>I am Manju - a former academic and a mixed method researcher, 
+        who recently dived into the world of UX Research. I have a genuine passion for storytelling 
+        and a knack for finding meaningful connections using the data.</p>
+  </div>
+  </div>
+  <section id="mySkills" class="mySkills">
+    <h1 id="skillSectionHeading">My UX Skills</h1>
+    <div class="carousel">
+
+      <div class="skillItem" id="userResearch">
+        <img src="css/images/userResearch.png">
+        <h3>User Research</h3>
+        <p>Survey design, semi-structured interviews, focus groups, empathy mapping, usability testing, A/B testing.</p>
+      </div>
+      <div class="skillItem " id="uiDesign">
+        <img src="css/images/userInterfaceDesign.png">
+        <h3>UI Design</h3>
+        <p>Visual design, interactive prototyping, interaction design, Knowledge of UI patterns and design, UI style guide.</p>
+      </div>
+      <div class="skillItem active" id="storyTelling">
+        <img src="css/images/storytelling.png">
+        <h3>Story Telling</h3>
+        <p>Narrative structure, descriptive language, building empathy, Authenticity, resonance, Active listening.</p>
+      </div> 
+    </div>
+    <p>During my time at the UX/UI bootcamp, I engaged in a diverse range of independent and group projects where I had the opportunity to apply the aforementioned skills.
+      <br> These skills played a significant role at different stages of product development.
+      <br> To learn more about the projects I worked on, please visit the "Projects" section or click the link here.</p>
+  </section>
+ <!-- My Work section coded using CSS flex */ -->
+ <section id="myWork" class="myWork">
+  <h1 id="workSectionHeading">Projects</h1>
+  <div class="workGrid" id="myWorkContainer">
+    <div class="workGridArea project" id="firstProject">
+      <img src="css/images/kidEase.png">
+    </div>
+    <div class="workGridArea description" id="firstProjectDesc">
+      <h4>KidEase</h4>
+      <p>A traveling app specifically designed for parents traveling wih their kids.</p>
+      <button>View Project</button>
+    </div>
+    <div class="workGridArea project" id="secondProject">
+      <img src="css/images/happyMom.png">
+    </div>
+    <div class="workGridArea description" id="secondProjectDesc">
+      <h4>A Happy Mom!</h4>
+      <p>A mental health app designed for mothers navigating postpartum by finding a community and having research-based well-being techniques.</p>
+      <button>View Project</button>
+    </div>
+</div>
+<h3 class="workGridArea" id="workSectionFooter">View All Projects</h3>
+</section>
+</body>
+</html>
